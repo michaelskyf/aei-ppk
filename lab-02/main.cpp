@@ -72,7 +72,7 @@ void cw4()
 	std::cout << "c = ";
 	std::cin >> c;
 
-	if(a*a + b*b != c*c)
+	if(!(a+b > c && a+c > b && b+c > a))
 	{
 		printf("Nie trójkąt\n");
 		return;
